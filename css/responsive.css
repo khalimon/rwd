@@ -39,9 +39,8 @@
     }
 .main-header-content {
     top:105%;
-    position: absolute;
+    position: relative;
     color:black;
     text-align: center;
-    left:35%
-}
+   }
 }
