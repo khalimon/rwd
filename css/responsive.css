@@ -1,0 +1,47 @@
+@media all and (min-width: 1170px){
+#main-header {
+    height: 100vh;
+    background-image: url(../img/man-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+.main-header-content {
+    top:50%;
+    left:20px;
+    position: absolute;
+}
+}
+@media all and (max-width: 1169px)and (min-width: 992px){
+#main-header {
+    height: 70vh;
+    background-image: url(../img/man-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+.main-header-content {
+    top:50%;
+    right:20px;
+    position: absolute;
+}
+}
+@media all and (max-width: 991px){
+#main-header {
+    height: 50vh;
+    background-image: url(../img/man-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+.main-header-content {
+    top:105%;
+    position: absolute;
+    color:black;
+    text-align: center;
+    left:35%
+}
+}
